@@ -3,7 +3,7 @@ from masks import masks_account
 from typing import Any
 
 
-def mask_account_card(arg_2):
+def mask_account_card(arg_2: Any) -> str:
     """Функция, которая принимает название карты с 16-значным числом и возвращает название с маскировкой счета/карты"""
     if "Счет" in arg_2 or "счет" in arg_2:
         return f"Счет {masks_card(arg_2)}"
@@ -17,3 +17,5 @@ def get_data(time: Any) -> str:
 
 
 print(get_data("2018-07-11T02:26:18.671407"))
+print(mask_account_card("Visa Platinum 7000 7922 8960 6361"))
+print(mask_account_card("Счет 4572038495017483"))
