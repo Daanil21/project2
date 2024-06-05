@@ -14,8 +14,3 @@ def mask_account_card(arg_2: Any) -> str:
 def get_data(time: Any) -> str:
     """Функция, которая принимает строку специального вида и возвращает дату"""
     return f"{time[8:10]}.{time[5:7]}.{time[0:4]}"
-
-
-print(get_data("2018-07-11T02:26:18.671407"))
-print(mask_account_card("Visa Platinum 7000 7922 8960 6361"))
-print(mask_account_card("Счет 4572038495017483"))
