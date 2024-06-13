@@ -1,6 +1,8 @@
 import pytest
-
-from src.widget import get_data, mask_account_card
+import os
+from src.widget import mask_account_card, get_data
+with open(os.path.abspath("widget.py"), "r") as file:
+    print(file.read())
 
 
 @pytest.mark.parametrize(

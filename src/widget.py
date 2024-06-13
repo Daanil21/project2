@@ -1,5 +1,4 @@
-from masks import masks_card
-from masks import masks_account
+from src.masks import masks_account, masks_card
 from typing import Any
 
 

@@ -1,4 +1,8 @@
 import pytest
+import os
+
+with open(os.path.abspath("src/masks.py"), "r") as file:
+    print(file.read())
 
 from src.masks import masks_account, masks_card
 
