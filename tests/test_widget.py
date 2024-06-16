@@ -1,6 +1,9 @@
-import pytest
 import os
-from src.widget import (mask_account_card, get_data)
+
+import pytest
+
+from src.widget import get_data, mask_account_card
+
 with open(os.path.abspath("src/widget.py"), "r") as file:
     print(file.read())
 

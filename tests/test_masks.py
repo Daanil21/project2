@@ -1,10 +1,11 @@
-import pytest
 import os
+
+import pytest
 
 with open(os.path.abspath('src/masks.py'), "r") as file:
     print(file.read())
 
-from src.masks import (masks_account, masks_card)
+from src.masks import masks_account, masks_card
 
 
 @pytest.fixture
