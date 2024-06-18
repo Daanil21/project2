@@ -37,12 +37,14 @@ python manage.py runserver
 2. Для определенных карт/счетов с маскировкой [Функция 2](src/widget.py)
 3. Для список словарей сортировка и поиск нужных строк [Функция 3](src/processing.py) 
 4. Для работы с массивами транзакций [Функция 4](src/generators.py) 
+5. Для работы с декораторами [Функция 5](src/decorators.py)
 
 Также есть есть тесты к ним:
 1. Для функции 1 - [Тест 1](tests/test_masks.py)
 2. Для функции 2 - [Тест 2](tests/test_widget.py)
 3. Для функции 3 - [Тест 3](tests/test_processing.py)
 4. Для функции 4 - [Тест 4](tests/test_generators.py)
+5. Для функции 5 - [Тест 5](tests/test_decorators.py)
 
 
 ## Лицензия:
