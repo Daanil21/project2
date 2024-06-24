@@ -1,6 +1,6 @@
-from masks import masks_card
-from masks import masks_account
 from typing import Any
+
+from src.masks import masks_account, masks_card
 
 
 def mask_account_card(arg_2: Any) -> str:
